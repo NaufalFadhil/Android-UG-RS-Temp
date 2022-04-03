@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:layout_toEndOf="@+id/profile_image"
                 android:text="@string/my_name" />
         </RelativeLayout>
@@ -55,14 +55,14 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginEnd="16dp"
-                    android:text="Status" />
+                    android:text="@string/status" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text="Pasien" />
+                    android:text="@string/pasien" />
             </TableRow>
 
             <TableRow
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text="spongebob@google.com" />
+                    android:text="@string/email_dummy" />
             </TableRow>
 
             <TableRow
@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="14sp"
-                    android:text="A+" />
+                    android:text="@string/gol_darah" />
             </TableRow>
 
             <TableRow
@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="14sp"
-                    android:text="Jl. Margonda Raya No.100, Depok, Jawa Barat" />
+                    android:text="@string/alamat" />
             </TableRow>
         </TableLayout>
 
@@ -134,7 +134,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:text="Riwayat Berobat" />
+            android:text="@string/riwayat_berobat" />
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -152,14 +152,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:text="Kegiatan" />
+                    android:text="@string/kegiatan" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text=": Rawat Inap" />
+                    android:text="@string/rawat_inap" />
             </TableRow>
 
             <TableRow
@@ -172,14 +172,14 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginEnd="16dp"
-                    android:text="Tanggal Masuk" />
+                    android:text="@string/tanggal_masuk" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text=": 10 January 2021" />
+                    android:text="@string/_10_january_2021" />
             </TableRow>
 
             <TableRow
@@ -192,14 +192,14 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginEnd="16dp"
-                    android:text="Tanggal Keluar" />
+                    android:text="@string/tanggal_keluar" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text=": 20 January 2021" />
+                    android:text="@string/_20_january_2021" />
             </TableRow>
 
             <TableRow
@@ -212,14 +212,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:textSize="14sp"
-                    android:text="Tipe Kelas" />
+                    android:text="@string/tipe_kelas" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="14sp"
-                    android:text=": Kelas VIP" />
+                    android:text="@string/kelas_vip" />
             </TableRow>
 
             <TableRow
@@ -232,14 +232,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:textSize="14sp"
-                    android:text="Penyakit" />
+                    android:text="@string/penyakit" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textSize="14sp"
-                    android:text=": Demam Berdarah" />
+                    android:text="@string/demam_berdarah" />
             </TableRow>
 
         </TableLayout>

@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_margin="30dp"
-            android:text="Periksa" />
+            android:text="@string/periksa" />
     </LinearLayout>
 
 </ScrollView>

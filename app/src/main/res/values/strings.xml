@@ -44,4 +44,25 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="detail">Detail</string>
     <string name="doctor_name">Nama Dokter</string>
+
+    <string name="title_activity_doctor_list">List dokter</string>
+    <string name="my_name">Spongebob</string>
+    <string name="periksa">Periksa</string>
+    <string name="demam_berdarah">: Demam Berdarah</string>
+    <string name="penyakit">Penyakit</string>
+    <string name="kelas_vip">: Kelas VIP</string>
+    <string name="tipe_kelas">Tipe Kelas</string>
+    <string name="_20_january_2021">: 20 January 2021</string>
+    <string name="tanggal_keluar">Tanggal Keluar</string>
+    <string name="_10_january_2021">: 10 January 2021</string>
+    <string name="tanggal_masuk">Tanggal Masuk</string>
+    <string name="rawat_inap">: Rawat Inap</string>
+    <string name="kegiatan">Kegiatan</string>
+    <string name="riwayat_berobat">Riwayat Berobat</string>
+    <string name="alamat">Jl. Margonda Raya No.100, Depok, Jawa Barat</string>
+    <string name="gol_darah">A+</string>
+    <string name="email_dummy">spongebob@google.com</string>
+    <string name="status">Status</string>
+    <string name="pasien">Pasien</string>
+    <string name="next">next</string>
 </resources>
