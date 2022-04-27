@@ -48,15 +48,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
 
             if(!isEmptyFields) {
-                if(inputEmail.equals("spongebob@google.com") && inputPassword.equals("squarepants")) {
+                if(inputEmail.equals("s") && inputPassword.equals("s")) {
                     Intent moveIntent = new Intent(MainActivity.this, NavigationActivity.class);
-                    Toast.makeText(this, "Selamat Datang!", Toast.LENGTH_SHORT).show();
                     startActivity(moveIntent);
-                } else if (inputEmail.equals("spongebob@google.com")) {
-                    Toast.makeText(this, "Password yang dimasukkan salah", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(this, "Anda belum terdaftar", Toast.LENGTH_SHORT).show();
-                    edtEmail.setError("Email yang dimasukkan tidak terdaftar");
+                    Toast.makeText(this, "Email/Password yang dimasukkan salah", Toast.LENGTH_SHORT).show();
+                    edtEmail.setError("Email/Password yang dimasukkan salah");
+                    edtPassword.setError("Email/Password yang dimasukkan salah");
                 }
             }
         }
