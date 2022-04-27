@@ -48,8 +48,6 @@ public class DoctorListActivity extends AppCompatActivity {
     }
 
     private void showSelectedDoctor(Doctor data) {
-        Toast.makeText(this, "Kamu memilih " + data.getName(), Toast.LENGTH_SHORT).show();
-
         Intent intent = new Intent(DoctorListActivity.this, DetailActivity.class);
         intent.putExtra(DetailActivity.EXTRA_NAME, data.getName());
         intent.putExtra(DetailActivity.EXTRA_DETAIL, data.getDetail());
