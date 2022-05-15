@@ -66,4 +66,15 @@
     <string name="pasien">Pasien</string>
     <string name="next">next</string>
     <string name="menu_1">Menu 1</string>
+    <string name="detail_pasien">Detail Pasien</string>
+    <string name="rumah_sakit">Rumah Sakit</string>
+    <string name="rumah_sakit_alamat">Gg. H. Muin No.97, Cimanggis, Depok, Jawa Barat</string>
+    <string name="universitas_gunadarma">Universitas Gunadarma</string>
+    <string name="divider">-----------------------------------</string>
+    <string name="nomor_antrian">Nomor Antrian</string>
+    <string name="nomor_antrian_dummy">A - 023</string>
+    <string name="tujuan_pendaftaran">Tujuan: Pendaftaran</string>
+    <string name="tanggal_pendaftaran">Rabu, 20 April 2022 ~ 08:09</string>
+    <string name="waiting_text">Silakan menunggu nomor Anda dipanggil</string>
+    <string name="rumah_sakit_telp">Telp. 021-5668289, 021-5668281</string>
 </resources>

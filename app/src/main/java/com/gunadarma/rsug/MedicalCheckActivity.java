@@ -74,7 +74,7 @@ public class MedicalCheckActivity extends AppCompatActivity implements View.OnCl
             }
 
             if(!isEmptyFields) {
-                Intent moveIntent = new Intent(MedicalCheckActivity.this, NavigationActivity.class);
+                Intent moveIntent = new Intent(MedicalCheckActivity.this, QueueActivity.class);
                 Toast.makeText(this, "Pendaftaran pasien atas nama " + inputFullname + " berhasil", Toast.LENGTH_SHORT).show();
                 startActivity(moveIntent);
             }

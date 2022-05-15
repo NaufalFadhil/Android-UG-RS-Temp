@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
 
             if(!isEmptyFields) {
-                if(inputEmail.equals("s") && inputPassword.equals("s")) {
+                if(inputEmail.equals("spongebob@gmail.com") && inputPassword.equals("squarepants")) {
                     Intent moveIntent = new Intent(MainActivity.this, NavigationActivity.class);
                     startActivity(moveIntent);
                 } else {

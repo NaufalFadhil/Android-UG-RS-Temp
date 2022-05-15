@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gunadarma.rsug">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -9,7 +8,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RSUG">
-        <activity android:name=".BlogActivity"></activity>
+        <activity
+            android:name=".QueueActivity"
+            android:exported="false" />
+        <activity android:name=".BlogActivity" />
         <activity android:name=".onboarding.OnBoardingOneActivity" />
         <activity android:name=".DetailActivity" />
         <activity

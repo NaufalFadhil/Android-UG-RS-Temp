@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,13 +36,22 @@
                 android:text="@string/my_name" />
         </RelativeLayout>
 
-        <!-- Detail Pasien -->
+        <!-- Detail Pasien-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/detail_pasien" />
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="30dp">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -54,7 +62,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:layout_marginEnd="16dp"
                     android:text="@string/status" />
 
                 <TextView
@@ -93,15 +100,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
                     android:textSize="14sp"
+                    android:layout_marginEnd="16dp"
                     android:text="@string/blood_type" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:textSize="14sp"
+                    android:layout_weight="1"
                     android:text="@string/gol_darah" />
             </TableRow>
 
@@ -125,8 +132,9 @@
                     android:text="@string/alamat" />
             </TableRow>
         </TableLayout>
+        <!-- Detail Pasien -->
 
-        <!-- Riwaya Berobat -->
+        <!-- Riwayat Berobat -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -243,7 +251,7 @@
             </TableRow>
 
         </TableLayout>
-        <!-- Riwaya Berobat -->
+        <!-- Riwayat Berobat -->
 
     </LinearLayout>
 
