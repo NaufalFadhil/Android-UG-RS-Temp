@@ -253,6 +253,15 @@
         </TableLayout>
         <!-- Riwayat Berobat -->
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_move_activity_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:text="@string/logout" />
     </LinearLayout>
 
 

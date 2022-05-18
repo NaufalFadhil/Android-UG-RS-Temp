@@ -77,4 +77,5 @@
     <string name="tanggal_pendaftaran">Rabu, 20 April 2022 ~ 08:09</string>
     <string name="waiting_text">Silakan menunggu nomor Anda dipanggil</string>
     <string name="rumah_sakit_telp">Telp. 021-5668289, 021-5668281</string>
+    <string name="logout">Keluar dari akun</string>
 </resources>
