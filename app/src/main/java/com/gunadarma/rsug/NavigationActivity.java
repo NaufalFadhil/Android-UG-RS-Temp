@@ -3,6 +3,7 @@ package com.gunadarma.rsug;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -28,6 +29,9 @@ public class NavigationActivity extends AppCompatActivity implements View.OnClic
         btnHostpitalization.setOnClickListener(this);
         btnDoctor.setOnClickListener(this);
         btnLab.setOnClickListener(this);
+
+        ImageButton btnDialPhone = findViewById(R.id.btn_dial_emergency_number);
+        btnDialPhone.setOnClickListener(this);
     }
 
     @Override
@@ -50,6 +54,10 @@ public class NavigationActivity extends AppCompatActivity implements View.OnClic
             startActivity(moveIntent);
         } else if (v.getId() == R.id.btn_move_activity_laboratory){
             Toast.makeText(this, "Mohon maaf! Fitur untuk saat ini belum tersedia", Toast.LENGTH_SHORT).show();
+        } else if (v.getId() == R.id.btn_dial_emergency_number){
+            String phoneNumber = "0812-3456-7890";
+            Intent dialPhoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
+            startActivity(dialPhoneIntent);
         }
     }
 
