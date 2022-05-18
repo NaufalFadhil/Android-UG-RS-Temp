@@ -24,13 +24,12 @@ public class NavigationActivity extends AppCompatActivity implements View.OnClic
         ImageButton btnHostpitalization = findViewById(R.id.btn_move_activity_hospitalization);
         ImageButton btnDoctor = findViewById(R.id.btn_move_activity_doctor);
         ImageButton btnLab = findViewById(R.id.btn_move_activity_laboratory);
+        ImageButton btnDialPhone = findViewById(R.id.btn_dial_emergency_number);
 
         btnMedicalCheck.setOnClickListener(this);
         btnHostpitalization.setOnClickListener(this);
         btnDoctor.setOnClickListener(this);
         btnLab.setOnClickListener(this);
-
-        ImageButton btnDialPhone = findViewById(R.id.btn_dial_emergency_number);
         btnDialPhone.setOnClickListener(this);
     }
 
